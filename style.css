@@ -588,7 +588,6 @@ body {
 
 .cart_form {
   grid-column: span 4;
-  width: 379px;
   height: 556px;
   border-radius: 20px;
   background: #F7F6F6;
@@ -609,12 +608,12 @@ body {
 .form_inf {
   padding-top: 35px;
   padding-left: 28px;
+  padding-right: 28px;
   display: flex;
   flex-direction: column;
   gap: 44px;
 }
 .form_item {
-  margin-right: 64px;
   border: none;
   background-color: transparent;
   padding-bottom: 6px;
@@ -624,6 +623,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 .form_price_buy {
   height: 29px;
@@ -767,6 +767,12 @@ body {
   }
   .top_input {
     display: none;
+  }
+  .top_cart {
+    background-position: bottom right 35%;
+  }
+  .top_catalog {
+    background-position: bottom left 20%;
   }
   .product_box_catalog {
     grid-template-columns: repeat(1, 1fr);
@@ -916,7 +922,6 @@ body {
   .cart_form {
     grid-column: span 4;
     margin-bottom: 48px;
-    width: 343px;
   }
   .cart_buy {
     grid-template-columns: repeat(4, 1fr);
@@ -936,10 +941,6 @@ body {
   }
   .form_buy_end {
     text-align: center;
-  }
-  .form_but_buy {
-    margin-left: 0;
-    margin-right: 27px;
   }
   .img_catalog_cart {
     width: 343px;
